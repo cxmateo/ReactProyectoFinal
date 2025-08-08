@@ -5,7 +5,7 @@ import ItemDetailContainer from './components/ItemDetailContainer';
 import Cart from './components/Cart';
 import Checkout from './components/Checkout';
 import './estilos.css';
-import DataUploader from './components/DataUploader';
+//import DataUploader from './components/DataUploader';
 
 function App() {
   return (

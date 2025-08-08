@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { CartContext } from './CartContext';
 import { db } from '../services/firebase/firebaseConfig';
-import { collection, addDoc, serverTimestamp, updateDoc, doc, getDoc, increment } from 'firebase/firestore';
+import { collection, addDoc, serverTimestamp, updateDoc, doc, increment } from 'firebase/firestore';
 import { Link } from 'react-router-dom';
 
 const Checkout = () => {
